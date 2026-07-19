@@ -1,14 +1,13 @@
-# Foundry / Solidity
-cache/
-out/
-broadcast/
-
-# Local env/secrets
 .env
-*.key
+.env.*
 *.pem
-
-# OS/editor
+*.key
+id_rsa*
+mnemonic*
+secrets/
+.cache/
+lab/out/
+lab/cache/
+lab/broadcast/
+lab/lib/
 .DS_Store
-.vscode/
-.idea/

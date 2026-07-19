@@ -111,3 +111,14 @@ For each validated issue, save:
 ## 8. Report
 
 Use `responsible-disclosure-template.md` and keep claims limited to evidence.
+
+
+## Repo lab quickstart (this repository)
+
+```bash
+cd lab
+git clone --depth 1 https://github.com/foundry-rs/forge-std lib/forge-std
+forge test -vv
+```
+
+The educational PoC test is `lab/test/VulnerableVault.t.sol`.
